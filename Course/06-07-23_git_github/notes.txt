@@ -26,3 +26,12 @@ git push url
 5.git push url 
 //pushing the code to repository
 ==============================================
+Setup for Git
+1.https://git-scm.com/downloads
+2.download for windows 
+3.64 bit setup 
+4.give next and finish 
+============================================
+Setup for github  
+1.https://github.com/
+========================
