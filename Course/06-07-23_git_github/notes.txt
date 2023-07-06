@@ -1,0 +1,28 @@
+Git And Github:
+
+Github - repository - developer 
+1.you can keep files,audio,video etc...
+2.It is used for developer purpose.
+example other repository 
+bigbucket,gitlab,github
+============================================
+Git 
+1.It will make communication between in your local system and repository(github)
+Commands:
+git clone url 
+git pull 
+git add .
+git commit -m "code"
+git push url 
+=================================================
+1.git clone url 
+//it will copy the entire repo in your local system 
+2.git pull 
+//it will give you upated code in your local system 
+3.git add . 
+//staging the git ready for commit 
+4.git commit -m "sample message"
+//message for pushing the code 
+5.git push url 
+//pushing the code to repository
+==============================================
