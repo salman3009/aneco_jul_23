@@ -3,3 +3,18 @@ cmd:git clone https://github.com/salman3009/aneco_jul_23.git
 To take pull in your local system
 cmd:git pull 
 ===========================================================
+New repo:
+1.html 
+2.css
+3.javascript 
+4.reactjs 
+Steps:
+1.take clone of new repository
+cmd:git clone https://github.com/salman3009/aneco_jul_23.git
+2.To add local changes to stage 
+cmd:git add .
+3.purpose of pushing 
+cmd:git commit -m "html practical code"
+4.to push to github 
+cmd:git push
+=========================================================
