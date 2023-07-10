@@ -1,0 +1,54 @@
+https:hyper text transfer protocal
+web --> Transfering information from one place to another place using internet.
+html - hyper text mark up language
+hyper  - link 
+text - data 
+markup - <>
+language - 
+extension of html --> .html,.htm 
+html divided into two parts - head and body 
+head section 
+1.title 
+2.style 
+3.script 
+4.meta - SEO 
+body section 
+<p>
+<h1>
+<div>
+<span>
+<li>
+<table>
+<form>
+<a>
+==============================================
+html is divided into two elements 
+1.block 
+   -It will bring next element in next line 
+   example:<p>,<h1>
+2.inline 
+   -It will continue the next element in same line 
+    example:<span><a><img>
+============================================    
+What is anchor tag and how it will navigate 
+   -anchor helps to move from one page to another page 
+   -attribute "href" we need to give page url 
+====================================
+Difference between order and unorder list 
+     -order list wil give roman letters or english alphabets in continuation 
+     -attribute 'type=a' to change the format 
+======================================================
+how to design table?
+     -.table tag 
+     - <tr> to create row 
+     - <th>,<td> to create column
+===============================================
+Form 
+   - input tag 
+   - type attribute - "text","radio","checkbox","number"
+   - form tag attributes - "type","name","value","required","minlength","maxlength","password"
+   - method - 'get','post'
+    get method - data will binded in url string 
+    post method - data will travel in body - prefer post method safer for sending
+=================================================
+
