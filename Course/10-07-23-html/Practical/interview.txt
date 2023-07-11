@@ -12,6 +12,8 @@ head section
 2.style 
 3.script 
 4.meta - SEO 
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
 body section 
 <p>
 <h1>
