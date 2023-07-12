@@ -31,3 +31,18 @@ text-align:center
 how to align box in center position 
 margin:auto
 ======================================
+color:hexadecimal (#ff0000)
+font-size:1px to any px 
+background-color:red;
+background-image:url;
+Mention property that will not repeat background-image?
+ background-repeat: no-repeat;
+===============================================
+how to define font-family
+font-family: Arial, Helvetica, sans-serif;
+//multiple font-family so that if first is not supported it will take the next one.
+===============================================================
+How to bold the text 
+font-weight:bold;
+======================================
+
