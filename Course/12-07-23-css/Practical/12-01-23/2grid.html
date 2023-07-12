@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <style>
+
+            body{
+                margin:0;
+                padding:0;
+            }
+
+            .header{
+                grid-area: header;
+            }
+            .footer{
+                grid-area:footer;
+            }
+            .left-bar{
+                grid-area: left-bar;
+            }
+            .main-content{
+                grid-area:main-content;
+            }
+
+            .container{
+                display: grid;
+                grid-template-areas: 'header header header header'
+                'left-bar main-content main-content main-content'
+                'footer footer footer footer';
+                gap:50px;
+            }
+
+
+
+            .header{
+                background-color: red;
+                height: 200px;
+            }
+            .footer{
+                background-color: green;
+                height: 200px;
+            }
+            .left-bar{
+                width: 400px;
+                background-color: blue;
+                height: 600px;
+            }
+            .main-content{
+                background-color: yellow;
+              
+            }
+            .label{
+                text-align: center;
+            }
+            .box{
+                display: flex;
+                margin-top:20px;
+            }
+            img{
+                width: 365px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+
+            </div>
+            <div class="left-bar">
+
+            </div>
+            <div class="main-content">
+                <div class="box">
+                    <div>
+                       <img src="./camera.png"/>
+                       <h1 class="label">LP Camera</h1>
+                    </div>
+                    <div>
+                      <img src="./camera.png"/>
+                      <h1 class="label">LP Camera</h1>
+                   </div>
+                   <div>
+                      <img src="./camera.png"/>
+                      <h1 class="label">LP Camera</h1>
+                   </div>
+                   <div>
+                      <img src="./camera.png"/>
+                      <h1 class="label">LP Camera</h1>
+                   </div>
+              </div>
+              <div class="box">
+                  <div>
+                     <img src="./camera.png"/>
+                     <h1 class="label">LP Camera</h1>
+                  </div>
+                  <div>
+                    <img src="./camera.png"/>
+                    <h1 class="label">LP Camera</h1>
+                 </div>
+                 <div>
+                    <img src="./camera.png"/>
+                    <h1 class="label">LP Camera</h1>
+                 </div>
+                 <div>
+                    <img src="./camera.png"/>
+                    <h1 class="label">LP Camera</h1>
+                 </div>
+            </div>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+
+    </body>
+</html>

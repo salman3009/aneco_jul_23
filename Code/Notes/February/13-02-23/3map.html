@@ -1,0 +1,23 @@
+<script>
+    var list=[
+        {
+            fullName:"akash",
+            age:33
+        },{
+            fullName:"suresh",
+            age:55
+        }
+    ];
+    var result = list.map(function(obj){
+        return obj.age;
+    });
+    console.log(result);
+    var result = list.map(function(obj){
+        return obj.fullName;
+    });
+    console.log(result);
+    var result = list.map(function(obj){
+        return {name:obj.fullName,criteria:obj.age};
+    });
+    console.log(result);
+</script>

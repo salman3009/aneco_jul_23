@@ -1,0 +1,24 @@
+<script>
+    function Gpay(amount){
+        return new Promise((success,failure)=>{
+              if(amount<0){
+                failure("amount is not available");
+              }else{
+                success(amount+500);
+              }
+        })
+    }
+    Gpay(500).then((result)=>{
+     console.log(result)
+    }).catch((error)=>{
+      console.log(error);
+    })
+    let firstName = "akash";
+    console.log(firstName);
+    function addition(a,b){
+        console.log("inside addition");
+        return a+b;
+    }
+    console.log("outside the function");
+    addition(3,4);
+</script>

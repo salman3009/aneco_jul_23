@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="one"/>
+        <input type="text" id="two"/>
+        <button onclick="onSubmit()">Submit</button>
+        <div id="demo"></div>
+    </body>
+
+    <script>
+        var a,b;
+        // function onFirstValue(event){
+        //    console.log(event.target.value);
+        //    a = Number(event.target.value);
+        // }
+        // function onSecondValue(event){
+        //    console.log(event.target.value);
+        //    b = Number(event.target.value);
+        // }
+        function onSubmit(){
+            a =  document.getElementById("one").value;
+            b =  document.getElementById("two").value;
+            var result = Number(a) + Number(b);
+            document.getElementById("demo").innerHTML = result;
+            document.getElementById("one").value = "";
+            document.getElementById("two").value = "";
+        }
+    </script>
+</html>

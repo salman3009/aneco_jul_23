@@ -1,0 +1,20 @@
+execution context 
+scope chain -
+local memory in execution 
+context if not able to find it will check in lexical environment.
+====================================
+hoisting 
+//before function declaration we can able to call the function because of registered in excution context 
+================================
+closure
+
+higher order function
+A function is returning another function this concept is called higher order function.
+================================
+call stack
+LIFO 
+Global execution context
+lexical environment.
+===========================
+
+

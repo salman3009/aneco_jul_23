@@ -1,0 +1,43 @@
+<script>
+    //I need to calculate the amount where age is greater then 18
+    //output:4000
+    let list=[
+        {
+            employeeName:"akash",
+            age:20,
+            amount:2000
+        },
+        {
+            employeeName:"suresh",
+            age:14,
+            amount:5000
+        },
+        {
+            employeeName:"sathish",
+            age:26,
+            amount:2000
+        },
+        {
+            employeeName:"amol",
+            age:15,
+            amount:3000
+        }
+    ];
+    let filterResult = list.filter(function(obj){
+                return obj.age>18;
+    });
+    let mapResult = filterResult.map(function(obj){
+        return obj.amount;
+    })
+    
+    //[3,4,5,66]
+    //3+4 = 7
+    //7 + 5 = 12
+    //12 + 66 = 78
+    let reduceResult= mapResult.reduce(function(a,b){
+        return a+b;
+    })
+    console.log(filterResult);
+    console.log(mapResult);
+    console.log(reduceResult);
+</script>

@@ -1,0 +1,15 @@
+return keyword inside the function:
+1.anywhere you can use the return keyword.
+2.return keyword will return the final value from that function.
+=============================================
+Array:
+//storing value continously 
+//address will start from zero.
+//same datatype but in javascript you can you different datatype.
+methods:
+1.push()
+2.pop()
+property
+3.length
+//array of object
+==================================

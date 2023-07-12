@@ -1,0 +1,20 @@
+Three types of position 
+1.static position
+//it will follow normal flow of the document 
+//it will follow the flow the tag from one another
+example:
+<p>first flow</p>
+<p>second flow</p>
+2.relative position
+//it will follow normal flow of the document 
+//it will follow the flow the tag from one another
+//but is has follow property left,top,bottom,right
+example:
+<p>first flow</p>
+<p>second flow</p>
+3.absolute position
+//it will follow always parent flow of the document.
+z-index 
+//-1 will go the element in behind the tag 
+//+1 will show the element in front position
+===========================

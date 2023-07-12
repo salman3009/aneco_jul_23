@@ -1,0 +1,33 @@
+CSS - cascading style sheet 
+CSS - Presentation
+=================================
+Three ways:
+1.inline
+2.internal 
+3.external - project based - better approach
+css syntax:
+selector_name{
+    key:value;
+}
+==================================
+How to import external css 
+  <link rel="stylesheet" href="external.css" >
+=================================================
+selector:
+1.element selector - <p> - set of elements
+2.id selector - # - unique element
+3.class selector - . - entire page whenever you have this class name.
+4.universal selector - * - will applicable to all the tags in that particular page.
+======================================================
+Box modal
+-every tag inside the html will have box modal.
+      1.width * height 
+      2.padding -left,right,top,bottom
+      3.border - left,right,top,bottom
+      4.margin - left,right,top,bottom
+==================================================
+how to align text in the center position 
+text-align:center 
+how to align box in center position 
+margin:auto
+======================================

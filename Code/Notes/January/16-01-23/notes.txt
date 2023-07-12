@@ -1,0 +1,7 @@
+1.opacity
+2.animation 
+3.box-sizing
+4.position:
+   static 
+   relative 
+   absolute

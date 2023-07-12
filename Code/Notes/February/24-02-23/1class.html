@@ -1,0 +1,20 @@
+<script>
+    class ApplicationForm{
+
+        constructor(fullName,age,address){
+            this.fullName = fullName;
+            this.age = age;
+            this.address = address;
+        }
+
+        getEditAge(input){
+            this.age = input;
+        }
+    }
+    let sureshObj = new ApplicationForm("suresh",0,"chennai");
+    console.log(sureshObj);
+    let akashObj = new ApplicationForm("akash",33,"madurai");
+    console.log(akashObj);
+    akashObj.getEditAge(55);
+    console.log(akashObj);
+</script>

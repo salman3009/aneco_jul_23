@@ -1,0 +1,31 @@
+decision control statement:
+1.conditional operator:
+condition?yes:no 
+2.elseif statement:
+if(){}
+else if(){}
+else 
+3.switch statement 
+=====================
+what is function 
+1.Doing some repeated task again and again.
+2.To avoid duplication of code.
+syntax:
+function display(){
+    console.log("welcome to javscript");
+}
+display();
+passing parameter or argument:
+function display(type,load){
+    console.log("welcome to javscript");
+}
+===============================
+primitive types:
+1.boolean 
+2.undefined
+3.string 
+4.number 
+Derived types:
+1.array 
+2.object 
+

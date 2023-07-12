@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="firstName"/>
+        <button onclick="onSubmit()">Submit</button>
+        <div id="demo"></div>
+    </body>
+    <script>
+        function onSubmit(){
+            alert("submit");
+            var result = document.getElementById('firstName').value;
+            console.log(result);
+            document.getElementById("demo").innerHTML = result;
+        }
+
+    </script>
+</html>

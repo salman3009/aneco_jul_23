@@ -1,0 +1,22 @@
+Box Modal:
+//everyelement in html is covered with box modal:
+//box modal consists of four elements 
+    1.width * height 
+    2.padding
+    3.border 
+    4.margin 
+======================================
+unit for css:
+1.% - percentage 
+2.px --> pixel  
+===============================  
+border 
+1.top 
+2.left 
+3.bottom
+4.right 
+=======================
+padding:
+//It will create space between the border and content(width*height)
+==============================
+color:

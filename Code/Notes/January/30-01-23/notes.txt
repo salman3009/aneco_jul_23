@@ -1,0 +1,9 @@
+Javascript:
+It is scripting language  - line by line execution
+lightweight language - it is single thread language 
+It will run inside the browser
+====================================
+Two ways of writing javascript:
+1.Internal  - <script></script>
+2.external - extension .js
+=============================

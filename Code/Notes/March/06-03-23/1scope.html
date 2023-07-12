@@ -1,0 +1,14 @@
+<script>
+    function outerDisplay(){
+        console.log("outer fullName",fullName);
+        var address = "chennai";
+        innerDisplay();
+        function innerDisplay(){
+            console.log("inner fullName",fullName);
+            console.log("address",address);
+        }
+    }
+    var fullName = "akash";
+    console.log(fullName);
+    outerDisplay();
+</script>

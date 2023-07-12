@@ -1,0 +1,17 @@
+<script>
+
+    function cart(list){
+        console.log("items bought",list);
+        var result = list.laptop + list.mobile+ list.hardDisk;
+        result = result * 100;
+        return result;
+    }
+    
+    var total = cart({laptop:1,mobile:0,hardDisk:1});
+
+    amount(total);
+
+    function amount(total){
+       console.log("amount total",total);
+    }
+</script>
