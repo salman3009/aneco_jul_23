@@ -1,0 +1,6 @@
+position property 
+media query 
+opacity
+box-sizing 
+animation
+===========================================

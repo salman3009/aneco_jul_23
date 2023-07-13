@@ -1,0 +1,26 @@
+1.opacity
+2.animation 
+3.box-sizing
+4.position:
+   static 
+   relative 
+   absolute
+====================================
+How to make image or text transparent?
+ opacity:0.3
+======================================
+animation 
+animation: fadeIn 10s infinite
+=====================================
+box-sizing
+  To avoid to give extra space for padding apart from width and height 
+  box-sizing: border-box;
+=================================================\
+How to make mobile and tab responsive
+   we need to write media query with break points 
+============================================
+position property:
+       1.static - It follows the order of the HTML code.
+       2.relative - It follows the order of the HTML code. we can change position by using left,right,top,bottom
+       3.absolute - Absolute-positioned elements are completely taken out of the regular flow of the web page.
+=============================================================

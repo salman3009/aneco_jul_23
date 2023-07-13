@@ -51,15 +51,18 @@ overflow:auto;
 display:block - width+height it will navigate to next line
 display:inline  - it will continue in same line 
 display:inline-block - width+height it will continue in same line
-display:flex 
-display:grid 
+display:flex - design layout - single-dimension . At a time we can design either row or column
+display:grid - design layout - two dimension . At a time we can design row and column together
 ======================================
 anchor psuedo-selector:
 link,hover,active,visited
 ==================================
-position property 
-media query 
-opacity
-box-sizing 
-animation
+flex:
+ display: flex;
+flex-direction: row; (row or column)
+======================================
+grid
+display: grid;
+grid-template-columns: auto auto auto;
 ===========================================
+
