@@ -1,0 +1,5 @@
+object:
+//this is refer to current object.
+//if you use this keyword outside the object it will refer to window object.
+//if you use this keyword inside the object will refer to current object.
+=====================================

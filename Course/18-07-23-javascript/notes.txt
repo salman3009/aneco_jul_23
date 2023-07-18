@@ -1,0 +1,61 @@
+Javascript
+//To make webpage dynamic 
+Two ways of writing javascript 
+1.internal 
+2.external - preferred one(project)
+
+DOM 
+Document object Model 
+html will be converted into tree like data structure behind the scence 
+each element will be an object 
+They have predefined window object --> document object 
+What is global inside the javascript --> window 
+
+How to access the html element 
+//By using id we can access html element inside the javascript 
+document.getElementById('id')
+
+
+what is variable 
+//To store values inside the variable 
+//var is the keyword to define variable 
+//javascript has dynamic variable
+Values 
+1.number 
+2.string 
+3.boolean 
+4.object 
+5.array
+
+how to check datatype 
+typeof var_name
+
+Types of operator 
+1Arithmetic operator 
+      +,-,/,*,++,--
+2.comparison operator 
+     >,<,>=,<=,==,===,!=
+Difference between == and === 
+      1. == will check only value 
+      2. === will check value + datatype
+3.logical operator 
+     &&,||,!
+4.conditional operator 
+ syntax : condition ? true : false
+ var result = state == 'TN' ? true : false;
+
+ Decision Making statement 
+     1.if else 
+     2.switch 
+
+ function 
+    //To reuse the code functionality 
+    //dynamic parameters 
+
+ Object 
+      //key-value pair we can store it
+
+what is this keyword 
+this will refer to current object 
+Default current object is window object 
+    

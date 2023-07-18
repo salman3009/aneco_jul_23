@@ -1,0 +1,20 @@
+Datatypes:
+string
+number
+boolean
+undefined
+Derived Datatypes: 
+1.object 
+2.array
+================
+typeof is a inbuilt function to check datatypes.
++ operator you can use in two ways:
+1.addition
+2.concatenation -string combination.
+=====================================
+airthmetic operator:+,-,*,/,%,++,--
+comparison operator:>,<,>=,<=,==,===,!=
+=  assignment operator 
+== - will check only values
+=== will check values + datatypes
+=======================================

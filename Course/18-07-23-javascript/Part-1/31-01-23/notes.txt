@@ -1,0 +1,28 @@
+Object - anything that is noun
+example:
+person,laptop,mobile,car,lorry,bottle,pencil
+Object will have properties and methods:
+properties:
+Person-object 
+properties:
+height:6inch
+weight:70
+skin:black 
+methods:
+walkingspeed()
+readingspeed()
+eatingperDay()
+========================
+constant - value once it is defined we cannot change. static data 
+string - "" or ''
+=========================
+DOM - Document object modal
+//It is tree like structure 
+//all html tags are converted into tree like object behind the compiler
+//above html tags window object is attached by javascript.so that we can able to access html tags
+//once you access the html tags using window object we can able to edit,delete,add,read the html tags from javascript.
+===========================
+console:
+//it is command line used for developer purpose 
+//we can able to see the output of javascript.
+=============================================

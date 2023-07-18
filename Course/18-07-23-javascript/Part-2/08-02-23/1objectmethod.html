@@ -1,0 +1,20 @@
+<script>
+    console.log(this);
+    var person ={
+        firstName : "akash",
+        age: 45,
+        amount:3000,
+        finalAmount:function(total){
+            console.log(this);
+            var result = total + this.amount;
+            console.log("the final amount is",result);
+        }
+    }
+    person.finalAmount(100);
+    console.log(this);
+
+    function addition(){
+        console.log(this);
+    }
+    addition();
+</script>
