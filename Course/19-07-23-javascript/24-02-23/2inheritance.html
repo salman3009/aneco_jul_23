@@ -1,0 +1,34 @@
+<script>
+    class ApplicationForm{
+
+        constructor(fullName,age,address){
+            this.fullName = fullName;
+            this.age = age;
+            this.address = address;
+        }
+
+        getEditAge(input){
+            this.age = input;
+        }
+
+        getFinalDetails(){
+            return this.address;
+        }
+    }
+  
+    class FoodToken extends ApplicationForm{
+
+        constructor(fullName,age,address,amount){
+            super(fullName,age,address);
+            this.amount = amount;
+        }
+        getAmount(){
+            console.log(this.getFinalDetails());
+            return this.amount;
+        }
+    }
+    var akashFood = new FoodToken("akash",33,"chennai",4400);
+    console.log(akashFood);
+    akashFood.getEditAge(44);
+    akashFood.getAmount();
+</script>

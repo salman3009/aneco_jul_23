@@ -1,0 +1,24 @@
+<!-- <script>
+    let list=[33,4,55];
+    let a = list[0];
+    let b = list[1];
+    let c = list[2];
+</script> -->
+
+<script>
+    let list=[33,4,55,565,66];
+   let [a,b,c]=list;
+   console.log(a,b,c);
+</script>
+
+<script>
+    let listobj={
+        name:"akash",
+        age:33
+    }
+    let obj={
+        address:"chennai"
+    }
+   let {age,address}= {...listobj,...obj};
+   console.log(address,age);
+</script>

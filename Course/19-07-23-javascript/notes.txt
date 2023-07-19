@@ -32,10 +32,12 @@ map:
 String methods 
     1.toUpperCase()
     2.toLowerCase()
-    3.indexOf()
+    3.indexOf() --> common method in array
     4.charAt()
     5.trim()
-    6.slice()
+    6.slice() --> array
+    7.includes() --> array
+    8.length --> array
 
 //some methods is available only on string/array 
 array to string --> [].toString() or [].join()
@@ -43,3 +45,34 @@ string to array -->split().join()
 
 array iteration can happen using for of loop 
 object iteration can happen using for for in loop
+
+========================================================
+normal primitive you can copy the value by just declaring the variable 
+example 
+let a = 5;
+let b = a;
+array/object 
+let a =[3,4];
+let b=[...a];
+let obj ={name:"akash"};
+let b ={...obj}
+=======================================================
+ES6 
+let/const 
+   - var is function scope 
+   - let/const is block scope 
+   - const we cannot redeclare the value.
+arrow function 
+    syntax difference
+spread operator
+    //to copy array we can use spread array 
+    //to spread the array inside one common array
+destructing
+    //It is used to destructure array or object into separate variable
+class/inheritance
+    //It is bluesprint for object 
+    //constructor is used to intialize the object 
+    //inheritance is used to reuse the parent class functionality inside the child class 
+    //inheritace to call constructor from child class super keyword 
+    //inheritace to call method use this keyword 
+===========================

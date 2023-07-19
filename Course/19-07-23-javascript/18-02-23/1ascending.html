@@ -1,0 +1,19 @@
+<script>
+    var list =[44,55,22,11,33];
+    for(var i=0;i<list.length;i++){
+        console.log("first Loop",list[i]);
+        for(var j=i+1;j<list.length;j++){
+            console.log("secondloop Loop",list[j]);  
+            if(list[i]>list[j]){
+                var temp = list[i];
+                //[11,55,22,11,33]
+                list[i] = list[j];
+                //[11,55,22,44,33]
+                list[j]= temp;
+              
+            } 
+        }
+    }
+    console.log(list);
+    
+</script>
