@@ -1,0 +1,45 @@
+function 
+    - Reusing the code functionality 
+    - if you call the function and you need to return the value
+    -if function is returning the value means we need to store in variable
+
+Array:
+     -Storing the data continously inside the memory.
+     -access,removing,updating,deleting easily we can able to do
+Methods:
+     1.unshift/push
+     2.shift/pop
+     3.slice - original array will remain as it is.
+     4.splice - original array will change
+     5.indexOf 
+     6.join 
+     7.includes 
+     8.reverse
+
+What is function callback?
+ A function is called after sometime. 
+ Implementation: you can pass function as parameter to another function and from there you can execute it.
+
+loops 
+   //to iterate the data 
+    for loop 
+    for of loop 
+
+map:
+   //mapping the data 
+   //to iterate the array and we can able to do some modifications and it will return new array.
+
+String methods 
+    1.toUpperCase()
+    2.toLowerCase()
+    3.indexOf()
+    4.charAt()
+    5.trim()
+    6.slice()
+
+//some methods is available only on string/array 
+array to string --> [].toString() or [].join()
+string to array -->split().join()
+
+array iteration can happen using for of loop 
+object iteration can happen using for for in loop
