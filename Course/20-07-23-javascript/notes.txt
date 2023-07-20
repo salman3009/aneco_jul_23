@@ -1,0 +1,55 @@
+Types of storage in frontend 
+1.session storage 
+     _ session will be created for each tab 
+     - temporary till the session is live
+2.local storage 
+      - local session will be created one for all the tab
+      - permanent we need to delete from the system
+Difference between synchronous and asychronous 
+      synchronous
+           line by line execution.
+                 normal function 
+                 normal variable
+                 decision making statement
+      asynchronous 
+           whichever is ready it will bring back that particular data.
+                        setTimeout
+                        setInterval
+                        promise
+
+What is promise 
+         -It is asynchronous code 
+         -It consists of two stage success and failure 
+         -To call promise we need to use then block                        
+
+Json 
+      JAVASCRIPT OBJECT NOTATION
+      -It is used to send the information between frontend and backend while using RESTAPI.
+      -It is similar to javascript object but few changes is there 
+            -It will support only string,number,boolean,array,object,null
+            -key must be in quotes
+      -extension .json 
+      - javascript to json - JSON.stringify
+      - json to javascript - JSON.parse
+
+Api call 
+     -fetch method we can call the restapi 
+     - fetch is async method 
+     - api method - get/post 
+            get - to fetch information 
+            post - to post information
+
+new array methods 
+       1.map 
+       2.filter 
+       3.reduce
+
+variable scope 
+        1.var function scope 
+        2. let/const block scope 
+        3. global scope - var/let/const
+
+function closure
+        - After return of the function still we can access variable of outer function.
+===================================================================
+
