@@ -1,0 +1,84 @@
+Nodejs - running javascript outside the browser 
+npm - node package manager (it is use to install the packages)
+========================================
+Reactjs 
+//It is javascript library to build user interface.
+https://reactjs.org/docs/create-a-new-react-app.html
+cmd:
+npx create-react-app my-app
+npm and npx both is help to install package 
+npx - will install latest package 
+npm - will install package in local system react for react and it will use same package everytime while creating project.
+==============================================
+Project run: npm start  or npm run start 
+============================================
+package.json - it is configuration files
+//library used 
+//running configuration 
+//testing configuration 
+//production configuration 
+//general details
+package.json --> all javascript project you will have package.json 
+//package we have used in our project 
+//how to start the project 
+//how to build project 
+node-modules - folder where all package will be present.
+============================================
+SPA - Single page application 
+    1.You will only one html file 
+    2.Multiple components will get replace using routing.
+src - source folder 
+===================================
+.js 
+.css 
+.test.js --->testing file 
+===================================
+react inside the js file itself will return the html.
+==============================================
+application start: npm start
+To stop the react application - Ctrl+c 
+==============================================
+NOtes:
+npx create-react-app project-name 
+scripts:
+npm run start or npm start 
+npm run build
+npm run test 
+=================================
+SPA - Single page application:
+//Entire website is build on singe html file.Depend upon user action will change the component structure.
+best example:gmail.
+====================================
+index.html --->index.js --> App.js 
+===================================
+index.css
+app.css 
+app.js 
+=====================================
+React is developed using component structure 
+component is nothing but one function
+syntax:
+function App(){
+
+}
+
+export default App;
+JSX - extension of javascript
+=========================================
+Every react function should return jsx.
+Return function should wrapped with one tag:
+
+function App(){
+
+      return (<div><div>
+        Welcome to programming
+        </div>
+        <div>
+          welcome to Reactjs
+        </div>
+        </div>
+        )
+
+}
+
+export default App;

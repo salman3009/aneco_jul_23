@@ -1,0 +1,25 @@
+How to develop our own component?
+example:
+function Mobile(){
+    return (<div>
+       <h1>My own component</h1>
+    </div>)
+}
+export default Mobile;
+//you can develop multiples component
+===================================
+For javascript expression inside the jsx:
+{}
+Props 
+  1.It is parameter to function 
+  2.While creating component we can pass different props to make it reusable.
+Image inside the reactjs 
+   1.always keep inside the assets folder 
+   2.dynamic import only is possible  
+       example:import mobile2 from './assets/mobile2.png'
+Jsx Rules: 
+   1.always use className inside the jsx 
+   2.always wrapped with single tag . example <div></div>
+   3.javascript expression can be written {}
+   4.few attributes name are changes like for -->htmlFor so we need to check always console error.
+=======================================================
