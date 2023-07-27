@@ -1,0 +1,62 @@
+Events:
+//Whenever user tried to do some actions that time event will get trigger
+      example:onclick,onChange,onSubmit
+//Whenevent event is trigger a function will be called.
+//Inside the function will have default parameter called event object 
+//Using event object we can access the current value fo the given input.
+
+//how to the event in reactjs 
+onClick  - onClick
+onChange - onChange
+
+In JS
+<div onClick="function()"></div>
+In Reactjs 
+<div onClick={function}><div>
+=======================================
+Table.js 
+
+import './Table.css';
+
+function Table(){
+
+    const onClickHandler = ()=>{
+        alert("onClickHandler")
+    }
+    const onChangeHandler=(event)=>{
+        console.log(event.target.value);
+    }
+    return (<div>
+       <table>
+           <tr>
+               <td><input type="text"/ onChange={onChangeHandler}></td>
+               <td><button onClick={onClickHandler}>Submit</button></td>
+           </tr>
+       </table>
+    </div>)
+}
+
+export default Table;
+========================================
+state in React:
+//React will not render JSX again until If we have change in state.
+//whenever you have dynamic data to be render then we need to use state.
+import {useState} from 'react';
+
+const[getfullName,setFullName]=useState("no value");
+
+setFullName(event.target.value);
+
+getfullName -> will provide latest value 
+setFullName -->helps to update the value
+====================================================
+1.overall structure of reactjs project 
+2.how to use props 
+3.how to use state 
+4.how to write functional component 
+5.how to write events 
+6.how to javascript expression inside the jsx {}
+7.handling && and condition operator - {getFlag?<List name={getInput}/>:null}
+8.how to handle image.
+=================================
+
